@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+}
+
+.menu {
+  background-color: #e1ede6;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.container_top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  align-items: center;
+}
+
+.menu_link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  gap: 60px;
+}
+
+.about_ink {
+  display: flex;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 66px;
+}
+
+.link_ink {
+  text-decoration: none;
+  color: #598d66;
+}
+
+.about_text_h1 {
+  max-width: 540px;
+  margin-top: 145px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 20px;
+  color: #86928b;
+}
+
+.production {
+  margin-top: 60px;
+  padding: 21px 60px;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.48px;
+  background-color: #fff;
+  color: #598d66;
+  border: 1px solid #598d66;
+}
+
+.showcase_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.country_selector {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.48px;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #d4e8d9;
+  border: none;
+  margin-left: 27px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.showcase {
+  padding-bottom: 70px;
+}
+
+.country_selector:hover {
+  background-color: #376b44;
+  color: white;
+}
+
+.showcase_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px 30px;
+  margin-top: 30px;
+}
+
+.replica {
+  background-color: #e1ede6;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.replica_photo {
+  width: 100%;
+}
+
+.replica_author {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.13px;
+  color: #86928b;
+  margin-top: 20px;
+}
+
+.replica_name {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: black;
+  margin-top: 10px;
+}
+
+.replica_material {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.13px;
+  color: black;
+  margin-top: 8px;
+}
+
+.replica_price {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.18px;
+  color: #598d66;
+  margin-top: 30px;
+}
+
+.buy {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  padding: 21px 107px;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.48px;
+  background-color: #e1ede6;
+  color: #598d66;
+  border: 1px solid #598d66;
+}
+
+.news {
+  background-image: url(/img/background.png);
+  background-size: cover;
+  color: white;
+}
+.new_collection {
+  display: flex;
+  align-items: center;
+  max-width: 521px;
+  gap: 20px;
+  padding-top: 70px;
+}
+
+.new_collection_text {
+  max-width: 550px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.new_collection_text_p {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.new_collection_button {
+  padding: 21px 60px;
+  background-color: #eedb6d;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.48px;
+  color: black;
+  border: none;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
+.team {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.container_team {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.our_team {
+  max-width: 635px;
+  margin-top: 124px;
+}
+
+.our_team_p {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.our_team_photos {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+
+.footer {
+  background-color: #e1ede6;
+}
+
+.container_footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px;
+}
+
+.workshop {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_nav {
+  display: flex;
+  gap: 60px;
+}
+
+.footer_replicas,
+.new_products,
+.about_us {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer_link_heading,
+.tel {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+.footer_link {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-decoration: none;
+  color: #86928b;
+}
+
+.social_network_icons {
+  display: flex;
+  gap: 30px;
+}
+
+.copyright {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.4px;
+  color: #86928b;
+}
+
+.footer_contacts {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+}
